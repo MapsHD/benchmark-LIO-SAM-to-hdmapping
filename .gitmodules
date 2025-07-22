@@ -1,0 +1,12 @@
+[submodule "src/LIO-SAM/"]
+	path = src/LIO-SAM/
+	url = https://github.com/TixiaoShan/LIO-SAM/
+[submodule "src/lio-sam-to-hdmapping/src/3rdparty/LASzip"]
+	path = src/lio-sam-to-hdmapping/src/3rdparty/LASzip
+	url = https://github.com/LASzip/LASzip.git
+[submodule "src/livox_ros_driver"]
+	path = src/livox_ros_driver
+	url = https://github.com/Livox-SDK/livox_ros_driver.git
+[submodule "src/LIO-SAM"]
+	path = src/LIO-SAM
+	url = https://github.com/TixiaoShan/LIO-SAM.git
