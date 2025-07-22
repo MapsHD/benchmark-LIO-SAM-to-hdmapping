@@ -1,4 +1,4 @@
-# LeGO-LOAM-converter
+# LIO-SAM-converter
 
 ## Intended use 
 
