@@ -19,14 +19,15 @@ sudo apt install libgtsam-dev libgtsam-unstable-dev
 ## Modified for build
 
 **Reference issue:**  
-             
+   ```shell     
 [catkin_make in ROS Noetic [Error] #206](https://github.com/TixiaoShan/LIO-SAM/issues/206)
+```
 
-
+```shell
 **Changes made:**
 
  
-   ```
+
   File:
 
   test_ws/src/LIO-SAM-to-hdmapping/src/LeGO-LOAM/LeGO-LOAM/CMakeLists.txt
@@ -62,7 +63,7 @@ Added Eigen includes. Eigen must be installed above PCL.
 under pcl 
 
 #include <opencv/cv.h> to #include <opencv2/opencv.hpp>
-
+```
 ## Building
 
 Clone the repo
@@ -106,7 +107,7 @@ directly from this [Google Drive link](https://drive.google.com/drive/folders/1T
 Then, download **sequence2**.
 
 ## Modfifed 
-
+```shell
 src/LIO-SAM-to-HDMapping/src/LIO-SAM/config/params.yaml
 
 pointCloudTopic: "points_raw"
@@ -116,7 +117,7 @@ to:
 
 pointCloudTopic: "pp_points/synced2rgb"
 imuTopic: "/imu/data"
-
+```
 ## Record the bag file:
 
 ```shell
