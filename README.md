@@ -6,7 +6,6 @@ This small toolset allows to integrate SLAM solution provided by [LIO-SAM](https
 This repository contains ROS 1 workspace that :
   - submodule to tested revision of LIO-SAM
   - a converter that listens to topics advertised from odometry node and save data in format compatible with HDMapping.
-  - 
 ## Dependencies
 
 ```shell
