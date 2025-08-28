@@ -26,8 +26,6 @@ sudo apt install libgtsam-dev libgtsam-unstable-dev
 ```shell
 **Changes made:**
 
- 
-
   File:
 
   test_ws/src/LIO-SAM-to-hdmapping/src/LeGO-LOAM/LeGO-LOAM/CMakeLists.txt
