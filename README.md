@@ -128,7 +128,7 @@ rosbag record /lio_sam/mapping/cloud_registered /odometry/imu
 cd /test_ws/
 source ./devel/setup.sh # adjust to used shell
 roslaunch lio_sam run.launch
-rosbag play sequence.bag
+rosbag play {path_to_bag}
 ```
 
 ## During the record (if you want to stop recording earlier) / after finishing the bag:
